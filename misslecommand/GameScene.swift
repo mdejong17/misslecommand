@@ -34,7 +34,7 @@ class GameScene: SKScene {
     {
         
         let location = touches.first!.location(in: self)
-        
+        //hello
 //        if !touchedBefore {
 //            touchedBefore = true
             let missile = SKSpriteNode(color: UIColor.yellow, size: CGSize(width: 100, height: 100))
